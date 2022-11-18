@@ -1,0 +1,81 @@
+{
+  "bilheteria":[
+    {
+      "id":1,
+      "nome_filme": "######",
+      "tipo": "inteira",
+      "descricao": "###########",
+      "preco": ###,
+      "categoria_id": ##
+    },
+    {
+      "id":2,
+      "nome_filme": "######",
+      "tipo": "meia entrada",
+      "descricao": "###########",
+      "preco": ###,
+      "categoria_id": ##
+    }
+  ],
+
+  "lanchonete":[
+    {
+      "id":1,
+      "nome": "Pipoca Mega amanteigada",
+      "descricao": "###########",
+      "preco": ###,
+      "categoria_id": ##
+    },
+    {
+      "id":#,
+      "nome": "######",
+      "descricao": "###########",
+      "preco": ###,
+      "categoria_id": ##
+    }  
+  ],
+
+  "genero":[
+    {
+      "id":#,
+      "nome": "######",
+      "descricao": "###########",
+      "preco": ###,
+      "categoria_id": ##
+    },
+    {
+      "id":#,
+      "nome": "######",
+      "descricao": "###########",
+      "preco": ###,
+      "categoria_id": ##
+    }
+  ],
+
+  "filmes":[
+    {
+      "id":1,
+      "nome_filme": "Adão Negro",
+      "sinopse": "O poderoso Adão Negro é libertado de sua tumba para lançar sua justiça cruel sobre a Terra.",
+     
+    
+    },
+    {
+      "id":2,
+      "nome": "O Pequeno Príncipe",
+      "sinopse": "A Pequena Garota encontra o excêntrico Aviador, que a introduz ao mágico mundo do Pequeno Príncipe. Neste mundo em que tudo é possível, a Garota aprende a redescobrir sua infância."
+    },
+    {
+      "id":3,
+      "nome": "Órfã 2: A Origem",
+      "sinopse": "A Pequena Garota encontra o excêntrico Aviador, que a introduz ao mágico mundo do Pequeno Príncipe. Neste mundo em que tudo é possível, a Garota aprende a redescobrir sua infância."
+    },
+    {
+      "id":4,
+      "nome": "O Pequeno Príncipe",
+      "sinopse": "A Pequena Garota encontra o excêntrico Aviador, que a introduz ao mágico mundo do Pequeno Príncipe. Neste mundo em que tudo é possível, a Garota aprende a redescobrir sua infância."
+    }
+
+
+  ]
+}
