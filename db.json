@@ -1,81 +1,159 @@
 {
   "bilheteria":[
     {
-      "id":1,
-      "nome_filme": "######",
-      "tipo": "inteira",
-      "descricao": "###########",
-      "preco": ###,
-      "categoria_id": ##
+      "id_ingresso":1,
+      "nome_filme": "Adão Negro",
+      "sala": "1",
+      "tipo": "meia entrada",
+      "sessao": "18:00",
+      "preco": 21
     },
     {
-      "id":2,
-      "nome_filme": "######",
+      "id_ingresso":2,
+      "nome_filme": "Adão Negro",
+      "sala": "1",
+      "tipo": "inteira",
+      "sessao": "18:00",
+      "preco": 32
+    },
+    {
+      "id_ingresso":3,
+      "nome_filme": "O Pequeno Príncipe",
+      "sala": "2",
       "tipo": "meia entrada",
-      "descricao": "###########",
-      "preco": ###,
-      "categoria_id": ##
+      "sessao": "15:00",
+      "preco": 18
+    },
+    {
+      "id_ingresso":4,
+      "nome_filme": "O Pequeno Príncipe",
+      "sala": "2",
+      "tipo": "inteira",
+      "sessao": "15:00",
+      "preco": 29
+    },
+    {
+      "id_ingresso":5,
+      "nome_filme": "Órfã 2: A Origem",
+      "sala": "3",
+      "tipo": "meia entrada",
+      "sessao": "21:00",
+      "preco": 16
+    },
+    {
+      "id_ingresso":6,
+      "nome_filme": "Órfã 2: A Origem",
+      "sala": "3",
+      "tipo": "inteira",
+      "sessao": "21:00",
+      "preco": 28
+    },
+    {
+      "id_ingresso":7,
+      "nome_filme": "Bad Boys para Sempre",
+      "sala": "1",
+      "tipo": "meia entrada",
+      "sessao": "19:00",
+      "preco": 21
+    },
+    {
+      "id_ingresso":8,
+      "nome_filme": "Bad Boys para Sempre",
+      "sala": "1",
+      "tipo": "inteira",
+      "sessao": "19:00",
+      "preco": 32
     }
   ],
 
   "lanchonete":[
     {
-      "id":1,
-      "nome": "Pipoca Mega amanteigada",
-      "descricao": "###########",
-      "preco": ###,
-      "categoria_id": ##
+      "id_lanch":1,
+      "nome": "Pipoca Mega",
+      "descricao": "250g de pipoca salgada amanteigada",
+      "preco": 10
+      
     },
     {
-      "id":#,
-      "nome": "######",
-      "descricao": "###########",
-      "preco": ###,
-      "categoria_id": ##
+      "id_lanch":2,
+      "nome": "Pipoca Média",
+      "descricao": "400g de pipoca salgada amanteigada",
+      "preco": 16
+      
+    },
+    {
+      "id_lanch":3,
+      "nome": "Refrigerante Mega",
+      "descricao": "800ml de qualquer refrigerante disponível na máquina",
+      "preco": 12
+      
+    },
+    {
+      "id_lanch":4,
+      "nome": "Refrigerante Médio",
+      "descricao": "500ml de qualquer refrigerante disponível na máquina",
+      "preco": 8
+      
     }  
   ],
 
   "genero":[
     {
-      "id":#,
-      "nome": "######",
-      "descricao": "###########",
-      "preco": ###,
-      "categoria_id": ##
+      "id_genero":1,
+      "genero_filme": "Comédia"
+      
     },
     {
-      "id":#,
-      "nome": "######",
-      "descricao": "###########",
-      "preco": ###,
-      "categoria_id": ##
+      "id_genero":2,
+      "genero_filme": "Terror"
+      
+    },
+    {
+      "id_genero":3,
+      "genero_filme": "Ação"
+      
+    },
+    {
+      "id_genero":4,
+      "genero_filme": "Infantil"
+      
+    },
+    {
+      "id_genero":5,
+      "genero_filme": "Romance"
     }
   ],
 
   "filmes":[
     {
-      "id":1,
+      "id_filme":1,
       "nome_filme": "Adão Negro",
       "sinopse": "O poderoso Adão Negro é libertado de sua tumba para lançar sua justiça cruel sobre a Terra.",
-     
-    
+      "genero_filme": "Ação",
+      "idade_indicada":"13+"
+      
     },
     {
-      "id":2,
-      "nome": "O Pequeno Príncipe",
-      "sinopse": "A Pequena Garota encontra o excêntrico Aviador, que a introduz ao mágico mundo do Pequeno Príncipe. Neste mundo em que tudo é possível, a Garota aprende a redescobrir sua infância."
+      "id_filme":2,
+      "nome_filme": "O Pequeno Príncipe",
+      "sinopse": "A Pequena Garota encontra o excêntrico Aviador, que a introduz ao mágico mundo do Pequeno Príncipe. Neste mundo em que tudo é possível, a Garota aprende a redescobrir sua infância.",
+      "genero_filme": "Infantil",
+      "idade_indicada":"Livre"
     },
     {
-      "id":3,
-      "nome": "Órfã 2: A Origem",
-      "sinopse": "A Pequena Garota encontra o excêntrico Aviador, que a introduz ao mágico mundo do Pequeno Príncipe. Neste mundo em que tudo é possível, a Garota aprende a redescobrir sua infância."
+      "id_filme":3,
+      "nome_filme": "Órfã 2: A Origem",
+      "sinopse": "Esther consegue escapar de um centro psiquiátrico onde está confinada e viaja para os Estados Unidos se passando por filha desaparecida de uma família rica. No entanto, uma mãe superprotetora fará de tudo por sua família, não importando os meios.",
+      "genero_filme": "Terror",
+      "idade_indicada":"16+"
     },
     {
-      "id":4,
-      "nome": "O Pequeno Príncipe",
-      "sinopse": "A Pequena Garota encontra o excêntrico Aviador, que a introduz ao mágico mundo do Pequeno Príncipe. Neste mundo em que tudo é possível, a Garota aprende a redescobrir sua infância."
+      "id_filme":4,
+      "nome_filme": "Bad Boys para Sempre",
+      "sinopse": "Os policiais Mike Lowery e Marcus Burnett se juntam à recém-criada equipe de elite do departamento de polícia de Miami para derrubar o líder de um cartel de drogas da cidade.",
+      // comedia
+      "genero_filme": "Ação",
+      "idade_indicada":"16+"
     }
-
-
   ]
 }
